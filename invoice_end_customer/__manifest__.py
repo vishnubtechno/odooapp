@@ -5,6 +5,8 @@
     'category': 'Account',
     'company': 'Test',
     'author': 'Test',
+    'price' : '0.06',
+    'currency' : 'USD',
     'website': "",
     'description': """
         -Invoice end customer.
