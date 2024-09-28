@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo App 3 Index</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Add box shadow and hover effect for images */
+        img {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Updated style for the container and text to improve professional appearance */
+        .container {
+            font-family: 'Inter', sans-serif !important;
+            background-color: #fff !important;
+            padding: 20px;
+            box-shadow: 30 12px 20px rgba(69, 59, 0, 2.15), 0 5px 15px rgba(0, 68, 0, 0.1);
+        }
+
+        h4 {
+            font-weight: 600 !important;
+            color: #282F33 !important;
+        }
+
+        /* Improve the appearance of the support section */
+        .support-section p {
+            font-weight: 600;
+            font-size: 24px;
+            color: #000 !important;
+        }
+
+        .support-section .col-md-6 {
+            padding: 20px;
+            border: 1px solid #D9D9D9;
+            border-radius: 8px;
+            margin: 15px 0;
+            background-color: #FFF9FD;
+        }
+
+        .support-section img {
+            width: 60px;
+            margin-right: 15px;
+        }
+
+        .support-section div {
+            color: #714B67;
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        /* Additional styles for better spacing and aesthetics */
+        .my-3 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        .nav-tabs li a {
+            font-weight: 500;
+        }
+
+        .nav-tabs {
+            margin-bottom: 20px;
+        }
+
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+        border-radius: 8px; /* Optional: for a rounded corner effect */
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 30 12px 20px rgba(69, 59, 0, 2.15), 0 5px 15px rgba(0, 68, 0, 0.1);
+    }
+
+    /* Initial shadow for a paper-like effect */
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 70, 0, 2.1), 0 2px 4px rgba(0, 0, 80, 0.05);
+    }
+
+         .big-container {
+        max-width: 1900px; /* You can change this value to make it as wide as you want */
+        margin-top: 0  /* This centers the container */
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="container big-container" style="font-family: 'Inter', sans-serif !important; background-color: #F5F5DC !important;">
+
+<br>
+    
+    <section>
+
+        <div class="container" style="font-family: 'Inter', sans-serif !important;background-color: #fff !important;">
+            <div class="row" >
+                <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between flex-wrap align-items-sm-center"
+                    style="border-bottom:1px solid rgba(70, 60, 0, 3.22)" >
+                    <div class="my-3" data-aos="fade-right">
+                        <img src="icon/icon.png" style="width:auto !important; height:60px !important">
+                    </div>
+                    <div class="my-3 d-flex align-items-center" data-aos="fade-left">
+                        <div class="text-center"
+                            style="background-color:#017E84 !important;font-size: 0.8rem !important; color:#fff !important; font-weight:500 !important; padding:4px !important; margin:0 3px !important; border-radius:50px !important; min-width: 120px !important;">
+                            Community
+                        </div>
+                        <div class="text-center"
+                            style="background-color:#875A7B !important; color:#fff !important;font-size: 0.8rem !important; font-weight:500 !important; padding:4px !important; margin:0 3px !important; border-radius:50px !important;min-width: 120px !important;">
+                            Enterprise
+                        </div>
+                        <div class="text-center"
+                            style="background-color:#7C7BAD !important; color:#fff !important;font-size: 0.8rem !important; font-weight:500 !important; padding:4px !important; margin:0 3px !important; border-radius:50px !important; min-width: 120px !important;">
+                            Odoo.sh
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container rounded"  >
+                    <ul class="nav nav-tabs d-flex" style="width: fit-content;margin: 0 auto;gap: 1rem;" data-aos="fade-down"
+                                                                data-aos-easing="linear"
+                                                                    data-aos-duration="700" >
+                        <li class="col text-center py-2 text-nowrap"
+                            style="color: black; background-color: #2a422e;border-radius: 9px 9px 9px 9px;" >
+                            <a class="active show" data-toggle="tab" href="#tab1"
+                                style="color: #fff;font-weight: 500; background-color: #2a422e; text-decoration: none;">
+                                <i class="fa-regular fa-image pr-2" style="color: #fff;"></i> Screenshots
+                            </a>
+                        </li>
+
+                        <li class="col text-center py-2 text-nowrap"
+                            style="color: #fff; background-color: #2a422e;border-radius: 9px 9px 9px 9px;">
+                            <a href="#support-section" style="color: #fff;font-weight: 500; text-decoration: none;">
+                                <i class="fa-solid fa-book-open pr-2" style="color: #fff;"></i> Support
+                            </a>
+                        </li>
+                    </ul>
+
+
+                    <div class="tab-content" style="background-color: #FFFAFE;box-shadow: 0 2px 4px rgba(0, 100, 0, 0.7);">
+                        <div id="tab1" class="tab-pane fade in active show">
+                            <div class="col-lg-12 py-2" style="padding: 1rem 4rem !important;">
+                                <div style="border: 1px solid #d8d6d6; border-radius: 4px; background: #fff; box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);">
+                                    <div class="row justify-content-center p-3 w-100 m-0"  data-aos="fade-right"
+                                                                                            data-aos-offset="300"
+                                                                                    data-aos-easing="ease-in-sine">
+                                        <img src="screenshots/ss1.png" class="img-responsive" width="100%" height="auto" >
+                                    </div>
+                                    <div class="px-3">
+                                        <h5 class="mt-2">Login as Administrator</h5>
+                                    </div>
+                                    <div class="px-3">
+                                        <h6 class="mt-2">Create a user</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2" style="padding: 1rem 4rem !important;">
+                                <div style="border: 1px solid #d8d6d6; border-radius: 4px; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" >
+                                    <div class="row justify-content-center p-3 w-100 m-0" data-aos="fade-right"
+                                                                                            data-aos-offset="300"
+                                                                                    data-aos-easing="ease-in-sine" >
+                                        <img src="screenshots/ss2.png" class="img-responsive" width="100%" height="auto">
+                                    </div>
+
+                                    <div class="px-3">
+                                        <h5 class="mt-2">Scroll down to bottom</h5>
+                                    </div>
+                                    <div class="px-3">
+                                        <h6 class="mt-2">Under the "Menu Access" & 'Account menu" label, select the checkboxes for the menus you wish to display to users.</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 py-2" style="padding: 1rem 4rem !important;">
+                                <div style="border: 1px solid #d8d6d6; border-radius: 4px; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                                    <div class="row justify-content-center p-3 w-100 m-0" data-aos="fade-right"
+                                                                                            data-aos-offset="300"
+                                                                                        data-aos-easing="ease-in-sine">
+                                        <img src="screenshots/ss3.png" class="img-responsive" width="100%" height="auto">
+                                    </div>
+
+                                    <div class="px-3">
+                                        <h5 class="mt-2">Login as user</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 py-2" style="padding: 1rem 4rem !important;">
+                                <div style="border: 1px solid #d8d6d6; border-radius: 4px; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                                    <div class="row justify-content-center p-3 w-100 m-0" data-aos="fade-right"
+                                                                                            data-aos-offset="300"
+                                                                                    data-aos-easing="ease-in-sine">
+                                        <img src="screenshots/ss4.png" class="img-responsive" width="100%" height="auto">
+                                    </div>
+
+                                <div class="px-3">
+                                    <h5 class="mt-2">Check the Menus Section</h5>
+                                </div>
+                                <div class="px-3">
+                                    <h6 class="mt-2">You will only see the menus for which you have set permissions.</h6>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-lg-12 py-2" style="padding: 1rem 4rem !important;">
+                            <div style="border: 1px solid #d8d6d6; border-radius: 4px; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                                <div class="row justify-content-center p-3 w-100 m-0" data-aos="fade-right"
+                                                                                        data-aos-offset="300"
+                                                                                data-aos-easing="ease-in-sine">
+                                    <img src="screenshots/ss5.png" class="img-responsive" width="100%" height="auto">
+                                </div>
+                                <div class="px-3">
+                                    <h5 class="mt-2">Click the Invoice menu.</h5>
+                                </div>
+                                <div class="px-3">
+                                    <h6 class="mt-2"> Here, you will only see the submenus for which you have set permissions.</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                         <!-- Support Section Anchor -->
+<div id="support-section" class="container mt-5">
+    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center mt-5">
+        <p class="m-0" style="font-weight: 600; font-size: 24px; color: #000 !important;">
+            Support
+        </p>
+    </div>
+</div>
+
+<div class="container my-5" >
+    <div class="row">
+        <div class="col-md-6 pb-4" data-aos="zoom-in">
+            <div class="card shadow-sm border-0 rounded" style="background-color: #FFFAFE;">
+                <div class="card-body d-flex align-items-center">
+                    <img src="assets/misc/support (1) 1.svg" alt="" width="60px" style="margin-right: 12px;">
+                    <div>
+                        <h5 class="card-title" style="color: #714B67; font-weight: 600;">
+                            Need Help?
+                        </h5>
+                        <p class="card-text" style="color: #718096;">
+                            Got questions or need help? Get in touch.
+                        </p>
+                        <div style="font-weight: 400; display: flex; align-items: center;">
+                            <span>
+                               <img src="icon/Gmail.svg" alt="" width="24px" style="margin-right: 0.8rem;">
+                            </span>
+                            <a href="mailto:info@www.febno.com" style="color: #714B67;">info@www.febno.com</a>
+                        </div>
+                        <div style="font-weight: 400; display: flex; align-items: center; margin-top: 0.5rem;">
+                            <span>
+                                 <img src="icon/Gmail.svg" alt="" width="24px" style="margin-right: 0.8rem;">
+                            </span>
+                            <a href="mailto:uae@www.febno.com" style="color: #714B67;">uae@www.febno.com</a>
+                        </div>
+                        <div style="font-weight: 400; display: flex; align-items: center; margin-top: 0.5rem;">
+                            <span>
+                                <img src="icon/Gmail.svg" alt="" width="24px" style="margin-right: 0.8rem;">
+                            </span>
+                            <a href="mailto:wasla@www.febno.com" style="color: #714B67;">wasla@www.febno.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pb-4" data-aos="zoom-in">
+            <div class="card shadow-sm border-0 rounded" style="background-color: #FFFAFE;">
+                <div class="card-body d-flex align-items-center">
+                    <img src="assets/misc/whatsapp 1.svg" alt="" width="60px" style="margin-right: 12px;">
+                    <div data-aos="fade-right">
+                        <h5 class="card-title" style="color: #714B67; font-weight: 600;" >
+                            WhatsApp
+                        </h5>
+                        <p class="card-text" style="color: #718096;">
+                            Say hi to us on WhatsApp!
+                        </p>
+                        <div style="font-weight: 400; font-size: 16px; display: flex; align-items: center;">
+                            <span>
+                                <img src="icon/WhatsApp.svg" alt="" width="18px" style="margin-right: 0.8rem;">
+                            </span>
+                            India: +91 8848806212
+                        </div>
+                        <div style="font-weight: 400; font-size: 16px; display: flex; align-items: center; margin-top: 0.5rem;">
+                            <span>
+                               <img src="icon/WhatsApp.svg" alt="" width="18px" style="margin-right: 0.8rem;">
+                            </span>
+                            UAE: +971 52 621 4499
+                        </div>
+                        <div style="font-weight: 400; font-size: 16px; display: flex; align-items: center; margin-top: 0.5rem;">
+                            <span>
+                                <img src="icon/WhatsApp.svg" alt="" width="18px" style="margin-right: 0.8rem;">
+                            </span>
+                            Oman: +968 9141 1945
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init();
+    </script>
+</body>
+
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9M/ScQsAP7hUibX39j+2F8b7nx5z9P/i6jD9" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFwqvzNTfG5+voflmYw0H9JK5fQ" crossorigin="anonymous">
+</script>
+
