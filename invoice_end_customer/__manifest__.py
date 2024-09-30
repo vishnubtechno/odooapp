@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Invoice End Customer',
-    'version': '16.0.1.1.0',
+    'version': '15.0.1.1.0',
     'category': 'Account',
     'company': 'Test',
     'author': 'Test',
